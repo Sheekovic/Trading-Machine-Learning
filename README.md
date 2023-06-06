@@ -16,7 +16,7 @@ To get started with the Crypto Price Prediction Bot, you need to set up a Telegr
 2. Open your Telegram app and search for your bot.
 3. Send the `/start` command to the bot to initiate the conversation.
 4. Send the `/predict` command to the bot.
-5. Enter the symbol of the cryptocurrency you want to predict (e.g., BTC).
+5. Enter the symbol of the cryptocurrency you want to predict (e.g., BTCUSDT).
 6. The bot will process the data, train the models, and generate price predictions.
 7. The bot will send you a CSV file containing the predictions for the next 30 days.
 
