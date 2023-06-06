@@ -204,7 +204,7 @@ def handle_start(message):
 @bot.message_handler(commands=['predict'])
 def handle_predict(message):
     # Ask the user for the symbol of the cryptocurrency
-    bot.reply_to(message, "Enter the symbol of the cryptocurrency (e.g., BTC):")
+    bot.reply_to(message, "Enter the symbol of the cryptocurrency (e.g., BTCUSDT):")
     # Register the next handler to receive the symbol from the user
     bot.register_next_step_handler(message, process_crypto_symbol)
 
