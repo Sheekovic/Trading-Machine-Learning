@@ -35,7 +35,7 @@ To get started with the Crypto Price Prediction Bot, you need to set up a Telegr
 
 ## File Description
 
-- `bot.py`: The main Python script that implements the Telegram bot and handles user interactions.
+- `main.py`: The main Python script that implements the Telegram bot and handles user interactions.
 - `ccxt`: A Python library for cryptocurrency trading and market data retrieval from various exchanges.
 - `numpy`: A library for scientific computing with Python.
 - `pandas`: A library for data manipulation and analysis.
