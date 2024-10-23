@@ -30,7 +30,8 @@ To get started with the Crypto Price Prediction Bot, you need to set up a Telegr
 - **Price Prediction**: Predicts prices for the next 30 days based on historical data.
 - **Interactive Visualizations**: Uses Plotly to create interactive plots for a more engaging user experience.
 
-![Screenshot 2024-10-23 165824](https://github.com/user-attachments/assets/2b3c0167-9dae-4465-a077-0b05e6efffa3)
+![Screenshot 2024-10-23 165824](https://github.com/user-attachments/assets/6dd17aca-82bc-4ddd-aa80-3e94bc93884e)
+
 
 ## File Description
 
