@@ -1,6 +1,6 @@
 # Crypto Price Prediction Bot
 
-Crypto Price Prediction Bot is a Telegram bot that predicts the price of cryptocurrencies using historical data from the Binance exchange. It utilizes machine learning models to analyze the data and generate price predictions for the next 30 days.
+The **Crypto Price Prediction Bot** is a Telegram bot designed to predict the prices of cryptocurrencies using historical data from the Binance exchange. It leverages machine learning models to analyze data and generate price predictions for the next 30 days, along with interactive visualizations.
 
 ## Getting Started
 
@@ -19,10 +19,23 @@ To get started with the Crypto Price Prediction Bot, you need to set up a Telegr
 5. Enter the symbol of the cryptocurrency you want to predict (e.g., BTCUSDT).
 6. The bot will process the data, train the models, and generate price predictions.
 7. The bot will send you a CSV file containing the predictions for the next 30 days.
+8. **Download CSV File**: The bot will send you a CSV file containing the predictions for the next 30 days.
+9. **View Interactive Graphs**: The bot will also generate interactive graphs displaying the predictions from different models.
+
+## Features
+
+- **Data Retrieval**: Fetches historical price data from the Binance exchange.
+- **Data Cleaning**: Cleans and processes the data by calculating RSI, Moving Average, and MACD indicators.
+- **Machine Learning Models**: Trains multiple models including Random Forest, Decision Tree, Linear Regression, and Ridge regression.
+- **Price Prediction**: Predicts prices for the next 30 days based on historical data.
+- **Interactive Visualizations**: Uses Plotly to create interactive plots for a more engaging user experience.
+
+![Screenshot 2024-10-23 165824](https://github.com/user-attachments/assets/6dd17aca-82bc-4ddd-aa80-3e94bc93884e)
+
 
 ## File Description
 
-- `bot.py`: The main Python script that implements the Telegram bot and handles user interactions.
+- `main.py`: The main Python script that implements the Telegram bot and handles user interactions.
 - `ccxt`: A Python library for cryptocurrency trading and market data retrieval from various exchanges.
 - `numpy`: A library for scientific computing with Python.
 - `pandas`: A library for data manipulation and analysis.
@@ -33,6 +46,7 @@ To get started with the Crypto Price Prediction Bot, you need to set up a Telegr
 ## Contributors
 
 - [Sheekovic](https://github.com/Sheekovic)
+- [Aas1kk](https://github.com/aa-sikkkk)
 
 Feel free to contribute to the project by creating issues or submitting pull requests.
 
